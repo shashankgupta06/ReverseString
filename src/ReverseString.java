@@ -21,9 +21,9 @@ public class ReverseString {
 			System.out.println("Continue? y or n");
 			word = read.nextLine();
 			
-			if(word.contains("y")) {
+			if(word.equals("y")) {
 				toggle = true;
-			}else if (word.contains("n")) {
+			}else if (word.equals("n")) {
 				toggle = false;
 			}
 		}
